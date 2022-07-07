@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/animsition.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="top-nav" class="navbar" style="z-index: 999;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <div class="menu">
+                <ul class="navbar-nav d-flex flex-row justify-content-between">
+                    <li class="dropdw icon-arrow">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <ul style="display: none ;" >
+                            <li><a href="index.html">Home - Default</a></li>
+                            <li><a href="index-left-nav.html">Home - Left Menu</a></li>
+                            <li><a href="index-video-backgound.html">Home - Video</a></li>
+                            <li><a href="index-demo.html">Home - Demo</a></li>
+                            <li><a href="index-slide-content.html">Home - Slide content</a></li>
+                            <li><a href="index-project.html">Home - Project</a></li>
+                            <li><a href="index-project2.html">Home - Project 2</a></li>
+                            <li><a href="index-canvas.html">Home - Canvas</a></li>
+                            <li><a href="index-canvas-2.html">Home - Canvas 2</a></li>
+                            <li class="li-dropdown icon-arrow">
+                                <a href="#">Home - Personal</a>
+                                <ul style="display: none;">
+                                    <li><a href="index-freelance.html">Home - Freelancer</a></li>
+                                    <li><a href="index-personal-photo.html">Home - Photographs</a></li>
+                                    <li><a href="index-personal-photo-video.html">Home - Photographs video</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-dropdown icon-arrow">
+                                <a href="#" class="sf-with-ul">Home - Portfolio</a>
+                                <ul style="display: none;">
+                                    <li><a href="index-portfolio.html">Home - Portfolio default</a></li>
+                                    <li><a href="index-portfolio-photographs.html">Home - Portfolio photographs</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdw icon-arrow">
+                        <a class="nav-link active" aria-current="page" href="#">Pages</a>
+                        <ul style="display: none ;" >
+                            <li><a href="index.html">About us</a></li>
+                            <li class="li-dropdown icon-arrow">
+                                <a href="index-left-nav.html">Contact</a>
+                                <ul style="display: none;">
+                                    <li><a href="index-freelance.html">Contact Default</a></li>
+                                    <li><a href="index-personal-photo.html">Contact 2</a></li>
+                                    <li><a href="index-personal-photo.html">Contact 3</a></li>
+                                    <li><a href="index-personal-photo.html">Contact 4</a></li>
+                                    <li><a href="index-personal-photo.html">Contact 5</a></li>
+                                </ul>
+                            </li>
+                            <li class="li-dropdown icon-arrow"><a href="index-video-backgound.html">Home - Video</a></li>
+                            <li class="li-dropdown icon-arrow"><a href="index-demo.html">Services</a></li>
+                            <li class="li-dropdown icon-arrow"><a href="index-slide-content.html">Blog</a></li>
+                            <li class="li-dropdown icon-arrow"><a href="index-project.html">Portfolio</a></li>
+                            <li class="li-dropdown icon-arrow"><a href="index-project2.html">Prices</a></li>
+                            <li><a href="index-canvas.html">404 page</a></li>
+                            <li><a href="index-canvas-2.html">TERMS</a></li>
+                            <li><a href="index-canvas-2.html">FAQ page</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">Our works</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+                <a class="toggle" href="#">
+                    <span class="w-50"></span>
+                    <span class="w-75" style="transition-delay: 0.1s;"></span>
+                    <span style="transition-delay: 0.1s;"></span>
+                    <span class="w-75" style="transition-delay: 0.2s;"></span>
+                    <span class="w-50" style="transition-delay: 0.3s;"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id="bg-video" class="backgroundVideo">
+        <video src="./img/San Francisco -High Tide-.mp4" autoplay loop muted></video>
+        <div class="overlay" style="opacity: 0.7;"></div>
+        
+        <div class="container-slide position-absolute top-50 start-50 translate-middle text-center" style="z-index: 9;">
+            <div class="container">
+                <h1>Background Video</h1>
+                <div class="description-slide">
+                    Kanter is a modern and simple template.<br>
+                    The main purpose for the template is to showcase your services
+                </div>
+                <div class="btn-play">
+                    <a href="" class="icon-play anim-up">
+                        <i class="fa fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="intro">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <a href="">
+                            <i class="fa-solid fa-mobile-alt"></i>
+                        </a>
+                        <h4>Fully Responsive</h4>
+                        <div class="decription-item">
+                            Kanter is fully responsive, you can view it also in the mobile/tablets devices and it looks very in more devices.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <a href="">
+                            <i class="fa fa-heartbeat"></i>
+                        </a>
+                        <h4>With love</h4>
+                        <div class="decription-item">
+                            Kanter developed with love and attention to detail, each block, and each button did not remain without attention
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <a href="">
+                            <i class="fa fa-laptop"></i>
+                        </a>
+                        <h4>Fully Responsive</h4>
+                        <div class="decription-item">
+                            Kanter is fully responsive, you can view it also in the mobile/tablets devices and it looks very in more devices.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="item">
+                        <a href="">
+                            <i class="fa-solid fa-display"></i>
+                        </a>
+                        <h4>Fully Responsive</h4>
+                        <div class="decription-item">
+                            Kanter is fully responsive, you can view it also in the mobile/tablets devices and it looks very in more devices.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="about-us section-form1">
+        <div class="container">
+            <div class="text-center title-section heading-title">
+                <h2 data-aos="fade-down" class="animated">About <span class="yellow">Us</span></h2>
+                <div class="slogan">
+                    We create <span class="yellow">awesome stuff</span>
+                </div>
+                <p data-aos="fade-up" class="animated">
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="icon-fadein">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>Web <span class="yellow">development</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.drerit elit sed, condimentum magna. Suspendisse imperdiet purus vel drerit elit sed, condimentum magna. Suspendisse imperdiet purus vel</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-brands fa-chromecast"></i>
+                    </div>
+                    <div class="icon-fadein">
+                        <i class="fa-brands fa-chromecast"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>Web <span class="yellow">development</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.drerit elit sed, condimentum magna. Suspendisse imperdiet purus vel drerit elit sed, condimentum magna. Suspendisse imperdiet purus vel</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <div class="icon-fadein">
+                        <i class="fa-solid fa-wifi"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>Web <span class="yellow">development</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.drerit elit sed, condimentum magna. Suspendisse imperdiet purus vel drerit elit sed, condimentum magna. Suspendisse imperdiet purus vel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-services section-form2">
+        <div class="overlay" style="opacity: 0.95; z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 99;">
+            <div class="text-center title-section heading-title">
+                <h3 data-aos="fade-down" class="animated">Our <span class="yellow">Services</span></h3>
+                <div class="line"></div>
+                <p data-aos="fade-up" class="animated">
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="row gx-5">
+                <div class="col-md-3">
+                    <div data-aos="fade-right" data-aos-delay="300" class="text-center anim-up">
+                       <div class="item-service">
+                            <div class="icon-section">
+                                <i class="fa-solid fa-chart-pie"></i>
+                            </div>
+                            <h4>Branding</h4>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div data-aos="fade-right" data-aos-delay="300" class="text-center anim-up">
+                       <div class="item-service">
+                            <div class="icon-section">
+                                <i class="fa-solid fa-chart-pie"></i>
+                            </div>
+                            <h4>Branding</h4>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div data-aos="fade-right" data-aos-delay="300" class="text-center anim-up">
+                       <div class="item-service">
+                            <div class="icon-section">
+                                <i class="fa-solid fa-chart-pie"></i>
+                            </div>
+                            <h4>Branding</h4>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div data-aos="fade-right" data-aos-delay="300" class="text-center anim-up">
+                       <div class="item-service">
+                            <div class="icon-section">
+                                <i class="fa-solid fa-chart-pie"></i>
+                            </div>
+                            <h4>Branding</h4>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs">
+                <div class="row">
+                    <div class="col-md-6">
+                       <div class="description-item active">
+                            <h4>Never fall in love with an idea. They’re whores. If the the job, there’s always another.</h4>
+                            <div class="line"></div>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p> <br>
+                            <p>Tab 1 Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris</p>
+                       </div>
+                       <div class="description-item">
+                            <h4>They’re whores. If the the job, there’s always another.</h4>
+                            <div class="line"></div>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p> <br>
+                            <p>Tab 1 Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris</p>
+                       </div>
+                       <div class="description-item">
+                            <h4>Never fall in love with an idea. They’re whores. If the the job, there’s always another.</h4>
+                            <div class="line"></div>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p> <br>
+                            <p>Tab 1 Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris</p>
+                        </div>
+                        <div class="description-item">
+                            <h4>Never fall in love with an idea. If the the job, there’s always another.</h4>
+                            <div class="line"></div>
+                            <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p> <br>
+                            <p>Tab 1 Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list active">
+                            <li><i class="fa-solid fa-check"></i>Rich media banners</li>
+                            <li><i class="fa-solid fa-check"></i>Audio production</li>
+                            <li><i class="fa-solid fa-check"></i>Photography</li>
+                            <li><i class="fa-solid fa-check"></i>Design</li>
+                            <li><i class="fa-solid fa-check"></i>Content creation</li>
+                            <li><i class="fa-solid fa-check"></i>Content audit</li>
+                            <li><i class="fa-solid fa-check"></i>Project management</li>
+                            <li><i class="fa-solid fa-check"></i>Technical requirements</li>
+                            <li><i class="fa-solid fa-check"></i>Testing</li>
+                            <li><i class="fa-solid fa-check"></i>and more...</li>
+                        </ul>
+                        <ul class="list">
+                            <li><i class="fa-solid fa-check"></i>Project management</li>
+                            <li><i class="fa-solid fa-check"></i>Technical requirements</li>
+                            <li><i class="fa-solid fa-check"></i>Testing</li>
+                            <li><i class="fa-solid fa-check"></i>Rich media banners</li>
+                            <li><i class="fa-solid fa-check"></i>Audio production</li>
+                            <li><i class="fa-solid fa-check"></i>Photography</li>
+                            <li><i class="fa-solid fa-check"></i>Design</li>
+                            <li><i class="fa-solid fa-check"></i>Content creation</li>
+                            <li><i class="fa-solid fa-check"></i>Content audit</li>
+                            <li><i class="fa-solid fa-check"></i>and more...</li>
+                        </ul>
+                        <ul class="list">
+                            <li><i class="fa-solid fa-check"></i>Rich media banners</li>
+                            <li><i class="fa-solid fa-check"></i>Audio production</li>
+                            <li><i class="fa-solid fa-check"></i>Photography</li>
+                            <li><i class="fa-solid fa-check"></i>Design</li>
+                            <li><i class="fa-solid fa-check"></i>Content creation</li>
+                            <li><i class="fa-solid fa-check"></i>Content audit</li>
+                            <li><i class="fa-solid fa-check"></i>Project management</li>
+                            <li><i class="fa-solid fa-check"></i>Technical requirements</li>
+                            <li><i class="fa-solid fa-check"></i>Testing</li>
+                            <li><i class="fa-solid fa-check"></i>and more...</li>
+                        </ul>
+                        <ul class="list">
+                            <li><i class="fa-solid fa-check"></i>Design</li>
+                            <li><i class="fa-solid fa-check"></i>Content creation</li>
+                            <li><i class="fa-solid fa-check"></i>Content audit</li>
+                            <li><i class="fa-solid fa-check"></i>Project management</li>
+                            <li><i class="fa-solid fa-check"></i>Technical requirements</li>
+                            <li><i class="fa-solid fa-check"></i>Rich media banners</li>
+                            <li><i class="fa-solid fa-check"></i>Audio production</li>
+                            <li><i class="fa-solid fa-check"></i>Photography</li>
+                            <li><i class="fa-solid fa-check"></i>Testing</li>
+                            <li><i class="fa-solid fa-check"></i>and more...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center icon-arrow" style="padding: 60px 0;">
+                <a href="">VIEW ALL SERVICES</a>
+            </div>
+        </div>
+</div>
+    </section>
+    <section class="how-work section-form1">
+        <div class="overlay" style="background-color: rgba(250, 250, 250, 0.95); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 9;">
+            <div class="text-center title-section heading-title">
+                <h2 data-aos="fade-down" class="animated">How we work</h2>
+                <div class="slogan animsition fade-in">
+                    We create <span class="yellow">awesome stuff</span>
+                </div>
+                <p data-aos="fade-up" class="animated">
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="row text-center items-howwork">
+                <div class="col-md-3">
+                    <div class="icon-section">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                    </div>
+                    <h4>Branding</h4>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-section">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                    </div>
+                    <h4>Branding</h4>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-section">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                    </div>
+                    <h4>Branding</h4>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-section">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                    </div>
+                    <h4>Branding</h4>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work-progress section-form3">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                   <div class="heading-title">
+                        <h2 data-aos="fade-down" class="animated">work <span class="yellow">progress</span></h2>
+                        <div class="line"></div>
+                        <p data-aos="fade-up" class="animated">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                   </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-progress">
+                        <i class="fa-brands fa-rocketchat"></i>
+                        <h4>1. Discuss</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-progress">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h4>2. Make</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-progress">
+                        <i class="fa-solid fa-heart"></i>
+                        <h4>3. Product</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="some-work section-form1">
+        <div class="container">
+            <div class="text-center title-section">
+                <h2 data-aos="fade-down" class="animated">Our some <span class="yellow">work</span></h2>
+                <div class="slogan">
+                    We create <span class="yellow">awesome stuff</span>
+                </div>
+                <p data-aos="fade-up" class="animated">
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="d-flex justify-content-center portfolios">
+                <div>All</div>
+                <div>Design</div>
+                <div>Mobile app</div>
+                <div>Design</div>
+                <div>Photography</div>
+            </div>
+        </div>
+        <div class="container-fluid items-somework">
+            <div class="row gx-0">
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/1.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/2.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/3.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>              
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/3.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0">
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/1.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/2.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/3.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>              
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/3.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gx-0">
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/1.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/2.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/3.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>              
+                </div>
+                <div class="col-md-3">
+                    <div class="item-somework">
+                        <a href="">
+                            <img src="./img/3.jpg" alt="">
+                        </a>
+                        <div class="description-somework text-center" >
+                            <div class="icon-somework">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+                           <div class="description-text">
+                                <h2>Image</h2>
+                                <div class="line"></div>
+                                <p>Claritas est etiam processus dynamicus.</p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="start-project section-form3">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="text-center title-section">
+                <h3 data-aos="fade-down" class="animated">Like our creative <span class="yellow">works</span></h3>
+                <a href="" class="btn">
+                    <div class="text-center btn-title">
+                        Start project
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="we-are-numbs section-form2">
+        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.9);"></div>
+        <div class="container" style="position: relative; z-index: 99;">
+            <div class="text-center title-section">
+                <h3 data-aos="fade-down" class="animated">we are in <span class="yellow">numbers</span></h3>
+                <div class="line"></div>
+                <p data-aos="fade-up" class="animated">
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+        </div>
+        <div class="figures">
+            <div class="container-fluid">
+                <div class="row items-we-are text-center">
+                    <div class="col-md-3" style="background-color: #625958;"><h2>235</h2></div>
+                    <div class="col-md-3"><h2>235</h2></div>
+                    <div class="col-md-3" style="background-color: #625958;"><h2>235</h2></div>
+                    <div class="col-md-3"><h2>235</h2></div>
+                </div>
+                <div class="row items-we-are text-center">
+                    <div class="col-md-3"><h4>COMPLETED PROJECTS</h4></div>
+                    <div class="col-md-3" style="background-color: #625958;"><h4>COMPLETED PROJECTS</h4></div>
+                    <div class="col-md-3"><h4>COMPLETED PROJECTS</h4></div>
+                    <div class="col-md-3" style="background-color: #625958;"><h4>COMPLETED PROJECTS</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-skills section-form2">
+        <div class="container" style="position: relative; z-index: 99;">
+            <div class=" title-section">
+                <h3 data-aos="fade-down" class="animated">Our <span class="yellow">skills</span></h3>
+                <div class="line"></div>
+                <p data-aos="fade-up" class="animated">
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <ul class="d-flex">
+                        <li class="active-skills">
+                            <a href="">css&html</a>
+                        </li>
+                        <li>
+                            <a href="">javacript</a>
+                        </li>
+                        <li>
+                            <a href="">wordpress</a>
+                        </li>
+                        <li>
+                            <a href="">ecommerce</a>
+                        </li>
+                        <li>
+                            <a href="">opencart</a>
+                        </li>
+                    </ul>
+                    <p style="margin-bottom: 0px;">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p>
+                    <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="skills-bar">
+                        <div class="line-yellow" style="position: relative;">
+                            <div class="line-gray" style="width: 40%; height: 100%;"></div>
+                            <div class="line-black title-skill" ><span>jQuery</span></div>
+                            <span class="skill-percent">40%</span>
+                        </div>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="line-yellow" style="position: relative;">
+                            <div class="line-black" style="width: 80%; height: 100%;"></div>
+                            <div class="line-gray title-skill" ><span>jQuery</span></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="line-yellow" style="position: relative;">
+                            <div class="line-gray" style="width: 90%; height: 100%;"></div>
+                            <div class="line-black title-skill" ><span>HTML&CSS</span></div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="line-yellow" style="position: relative;">
+                            <div class="line-black" style="width: 60%; height: 100%;"></div>
+                            <div class="line-gray title-skill" ><span>WordPress</span></div>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="line-yellow" style="position: relative;">
+                            <div class="line-gray" style="width: 97%; height: 100%;"></div>
+                            <div class="line-black title-skill" ><span>OpenCart</span></div>
+                            <span class="skill-percent">97%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carousel-trigger section-form2">
+        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.95);"></div>
+        <div class="container" style="position: relative; z-index: 99;">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4">
+                    <div class="item-carousel text-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3>we have magic</h3>
+                        <p>We find the best ideas for you</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item-carousel text-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3>we have magic</h3>
+                        <p>We find the best ideas for you</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item-carousel text-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <h3>we have magic</h3>
+                        <p>We find the best ideas for you</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dots-control">
+                <div class="d-flex justify-content-center">
+                    <div class="dot dot-active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team section-form1">
+        <div class="overlay" style="background-color: rgba(250, 250, 250, 0.95); z-index: 1;"></div>
+        <div class="container" style="position: relative; z-index: 9;">
+            <div class="text-center title-section">
+                <h2 data-aos="fade-down" class="animated">Team</h2>
+                <div class="slogan">
+                    <span class="yellow">who </span> we are
+                </div>
+                <p data-aos="fade-up" class="animated">
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="row gx-0">
+                <div class="col-md-3">
+                    <div class="text-center item-team">
+                        <img src="./img/team1.jpg" alt="">
+                        <h5>David Vigo Michel</h5>
+                        <h5 class="yellow">Founder & CEO</h5>
+                        <p>The MD of Statistic Consulting, he has been the captain of his team</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center item-team">
+                        <img src="./img/team2.jpg" alt="">
+                        <h5>David Vigo Michel</h5>
+                        <h5 class="yellow">Founder & CEO</h5>
+                        <p>The MD of Statistic Consulting, he has been the captain of his team</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center item-team">
+                        <img src="./img/team3.jpg" alt="">
+                        <h5>David Vigo Michel</h5>
+                        <h5 class="yellow">Founder & CEO</h5>
+                        <p>The MD of Statistic Consulting, he has been the captain of his team</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center item-team">
+                        <img src="./img/team4.jpg" alt="">
+                        <h5>David Vigo Michel</h5>
+                        <h5 class="yellow">Founder & CEO</h5>
+                        <p>The MD of Statistic Consulting, he has been the captain of his team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customers-us section-form2">
+        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.9);"></div>
+        <div class="container" style="position: relative; z-index: 99;">
+            <div class="text-center title-section">
+                <h3>customers love <span class="yellow">us</span></h3>
+                <div class="line"></div>
+                <p>
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="row gx-5">
+                <div class="col-md-4">
+                    <div class="text-center item-customer">
+                        <div class="img-customer">
+                            <img src="./img/team1.jpg" alt="">
+                        </div>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p>
+                        <h4 class="yellow">Alex Rezvova</h4>
+                        <h4>Designer, Company name</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center item-customer">
+                        <div class="img-customer">
+                            <img src="./img/team1.jpg" alt="">
+                        </div>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p>
+                        <h4 class="yellow">Alex Rezvova</h4>
+                        <h4>Designer, Company name</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center item-customer">
+                        <div class="img-customer">
+                            <img src="./img/team1.jpg" alt="">
+                        </div>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum</p>
+                        <h4 class="yellow">Alex Rezvova</h4>
+                        <h4>Designer, Company name</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="dots-control">
+                <div class="d-flex justify-content-center">
+                    <div class="dot dot-active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-us section-form1">
+        <div class="container">
+            <div class="text-center title-section">
+                <h2>why create <span class="yellow">Us</span></h2>
+                <div class="slogan">
+                    We create <span class="yellow">awesome stuff</span>
+                </div>
+                <p>
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="row items-why-choose">
+                <div class="col-md-4">
+                    <h4>LETS START 2K’TH JOURNEY WITH US</h4>
+                    <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div><div class="col-md-4 d-flex position-relative">
+                    <div class="icon-section">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <div class="content-about">
+                        <h3>We're <span class="yellow">creative</span></h3>
+                        <p>Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet tristique mi quam vel odio. Donec non nunc condimentum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="item-our-client">
+                        <img src="./img/partners-4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-our-client">
+                        <img src="./img/partners-4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-our-client">
+                        <img src="./img/partners-4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-our-client">
+                        <img src="./img/partners-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us section-form2">
+        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.9);"></div>
+        <div class="container" style="position: relative; z-index: 99;">
+            <div class="text-center title-section">
+                <h3>Contact <span class="yellow">with us</span></h3>
+                <div class="line"></div>
+                <p>
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
+                </p>
+            </div>
+            <div class="row items-contact">
+                <div class="col-md-6">
+                    <div style="text-align: right;">
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+58(667) 543 54 55</p>
+                        </div>
+                        <div class="address">
+                            <p>359 CENTRAL MIRA STREET</p> </br>
+                            <p>VATUTINA 79 / 99 UKRAINE</p>
+                        </div>
+                        <div class="email">
+                            <div>
+                                <i class="fa-solid fa-mail-forward"></i>
+                                <a href=""><p>SUPPORT@DOMIAN.COM</p></a> </br>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-mail-forward"></i>
+                                <a href=""><p>SUPPORT@DOMIAN.COM</p></a> </br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socials text-center">
+                        <div class="d-flex justify-content-end">
+                            <div class="icon-social"><a href=""><i class="fa-brands fa-facebook-f"></i></i></a></div>
+                            <div class="icon-social"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                            <div class="icon-social"><a href=""><i class="fa-brands fa-skype"></i></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="" class="form-contact">
+                       <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="Name" id="your-name" placeholder="Your name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="Name" id="your-name" placeholder="Your email">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" name="Name" id="your-message" placeholder="Your message">
+                            </div>
+                       </div>
+                    </form>
+                </div>
+            </div>
+            <div class="text-end">
+                <a href="" class="btn btn-send">
+                    <div class="text-center btn-title">
+                       Send
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/common.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
